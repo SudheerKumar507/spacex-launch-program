@@ -1,0 +1,97 @@
+body {
+  background-color: #F2F2F2 !important;
+}
+
+.spacex {
+  background-color: #F2F2F2;
+}
+
+.spacex__loader-wrapper {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.spacex__loader {
+  position: relative;
+  text-align: center;
+  max-width: 100%;
+  height: auto;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.spacex__header {
+  display: flex;
+  flex-direction: column;
+  font-size: calc(22px + 2vmin);
+  color: #0A0A0A;
+  padding-left: 16px;
+}
+
+.spacex-filter-card {
+  width: 18rem;
+  margin-bottom: 15px;
+}
+
+.spacex-filter-card__header {
+  color: #111111;
+}
+
+.spacex-filter-heading {
+  text-align: center !important;
+  margin-top: 1rem;
+}
+
+.spacex-launch-year {
+  text-align: center !important;
+  margin-top: -1rem;
+}
+
+.spacex-hr {
+  margin: 0.4rem;
+}
+
+.spacex-button-container {
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.spacex-author-name {
+  text-align: center !important;
+}
+
+.spacex-button {
+  background-color: #b2b266;
+  color: #000;
+  flex: 0 40%;
+  margin: 10px;
+}
+
+.btn-success {
+  color: #fff;
+  background-color: #739900;
+  border-color: #28a745;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
